@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Us — Winders' Flower Shop</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <link rel="stylesheet" href="stylesheet/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html">
+            <h1>Winders' Flowers</h1>
+            <h2>Contact Us</h2>
+        </a>
+    </header>
+
+    <nav>
+        <a href="index.html"><i class="fa fa-home"> </i>Home</a> |
+        <a href="winter_flowers.html"><i class="fa fa-asterisk"> </i>Winter Flowers</a> |
+        <a href="about.html"><i class="fa fa-info-circle"></i>About</a> |
+        <a href="contact.html" class="selected"><i class="fa fa-envelope"> </i>Contact Us</a>
+    </nav>
+
+    <main>
+        <h3>Need to Contact us?</h3>
+        <h3>Please fill out the form below and we’ll get back to you as soon as possible.</h3>
+        <br>
+        <form action="#" method="post">
+            <label for="name">Full Name*</label>
+            <input type="text" id="name" name="name" required title="Please enter at least 2 letters">
+
+            <label for="email">Email*</label>
+            <input type="email" id="email" name="email" required placeholder="you@example.com">
+
+            <label for="subject">Subject*</label>
+            <select id="subject" name="subject" required>
+                <option value="" disabled selected>Choose a subject</option>
+                <option value="order">Order Question</option>
+                <option value="delivery">Delivery (U.S. SHIPPING ONLY)</option>
+                <option value="general">General Inquiry</option>
+                <option value="feedback">Feedback</option>
+            </select>
+
+            <label for="message">Message*</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Type your message here..."></textarea>
+
+            <label for="phone">Phone (If prefered)</label>
+            <input type="tel" id="phone" name="phone" placeholder="123-456-7890" title="Format: 123-456-7890">
+
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Winders Arias ©2025</p>
+    </footer>
+</body>
+
+</html>

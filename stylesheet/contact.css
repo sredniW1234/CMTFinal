@@ -1,0 +1,53 @@
+main {
+    background-color: #8FABD4;
+    box-shadow: #000 0 0 0.3em;
+    margin-bottom: 1em;
+    font-size: large;
+    padding: 1em;
+}
+
+h3 {
+    margin: 0;
+    font-size: 150%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+input,
+textarea,
+select {
+    align-self: center;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    width: 45%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+textarea {
+    text-align: left;
+}
+
+button {
+    background-color: #4A70A9;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.75rem;
+    border: none;
+    width: 45%;
+    margin: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background-color: #3A5A8F;
+}

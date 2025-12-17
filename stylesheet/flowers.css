@@ -1,0 +1,41 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2em;
+    justify-content: center;
+    max-width: 70%;
+    margin: auto;
+}
+
+.flower {
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #4A70A9;
+    border-radius: 1em;
+    box-shadow: 0.1em 0.1em 0.5em rgb(0, 0, 0, 0.6);
+    display: inline-block;
+    width: 25%;
+    min-width: 15%;
+    vertical-align: top;
+}
+
+.flower img {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+}
+
+.flower h2 {
+    margin: 0.5em 0 0.2em 0;
+}
+
+.price {
+    font-weight: bold;
+    color: #4A70A9;
+}
+
+s {
+    color: #900;
+}

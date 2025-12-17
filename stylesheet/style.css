@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
+
+/* COMMON THINGS */
+html {
+    background-color: #EFECE3;
+    text-align: center;
+    margin: 0;
+    height: 100%;
+    font-family: "Newsreader", serif;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+header {
+    background-image: url("../images/banner.png");
+    background-color: #8FABD4;
+    background-size: contain;
+    font-family: "Rouge Script";
+    font-size: 150%;
+    padding: 0.2em 1em;
+    box-shadow: #000 0 0 0.3em;
+    /* text-align: left; */
+}
+
+header a {
+    display: block;
+    width: fit-content;
+    color: #000;
+    text-decoration: none;
+    margin: auto;
+    text-shadow: #4A70A9 0 0.2rem 0;
+    align-self: center;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+
+}
+
+header a:hover {
+    transform: scale(1.05);
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+nav {
+    margin: 1em;
+    font-size: large;
+}
+
+nav a {
+    transform: scale(1);
+    text-decoration: none;
+    color: #000;
+    transition: all 0.3 ease;
+}
+
+nav a:hover {
+    transform: scale(1.05);
+    text-decoration: underline;
+}
+
+.selected {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/* Main Page Specific */
+
+.winter-specials {
+    background-image: url("../media/cold-3012.gif");
+    background-size: cover;
+    padding: 10em 0em;
+    color: #FFF;
+    text-shadow: 0.1em 0.2em 0.3em #000;
+    box-shadow: #000 0 1em 2em;
+    margin: 2% 10%;
+    border: #4A70A9 0.2rem solid;
+    border-radius: 5em;
+}
+
+.winter-specials h3 {
+    font-size: 250%;
+    margin: 1rem;
+}
+
+.winter-specials p {
+    font-size: 150%;
+    text-shadow: 0.1em 0.1em 0.1em #000;
+}
+
+.winter-specials a {
+    display: inline-block;
+    font-size: 150%;
+    background-color: #8FABD4;
+    padding: 0.2em;
+    border: #4A70A9 2px solid;
+    color: #000;
+    transform: scale(1);
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.winter-specials a:hover {
+    color: #FFF;
+    transform: scale(1.05);
+}
