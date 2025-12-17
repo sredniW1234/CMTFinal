@@ -44,6 +44,16 @@ header a:hover {
     transform: scale(1.05);
 }
 
+nav a {
+    display: inline-block;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+}
+
 h1,
 h2 {
     margin: 0;
